@@ -1,6 +1,12 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 /*
 BARVY:
@@ -14,3 +20,75 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+  font-family: "Nunito", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.plocha {
+  /*   display: inline-block;
+  vertical-align: middle; */
+  background-color: #b2bec3;
+  padding: 150px;
+}
+.obdelnik {
+  width: 550px;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+ /*  box-shadow: 10px 5px 5px black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.obr {
+  /*   display: inline-block; */
+ 
+  position: absolute;
+  top: -75px;
+  width: 150px;
+  left: 475px;
+  height: auto;
+  border-radius: 50%;
+border: solid 3px aliceblue;
+  
+}
+
+h1 {
+  font-size: 36px;
+  color: #d63031;
+  padding-bottom: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+a {
+    display: block;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+.twit {
+    background-color: #1da1f2;
+}
+.face{
+    background-color: #3b5998;
+}

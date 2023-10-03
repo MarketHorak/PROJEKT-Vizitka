@@ -22,17 +22,25 @@ tlačítko Facebook aktivní: #2b406e
 
 body {
   font-family: "Nunito", sans-serif;
-  margin-left: auto;
+/*   margin-left: auto;
   margin-right: auto;
-  
-}
-.plocha {
-  /*   display: inline-block;
-  vertical-align: middle; */
+  display: inline-block;
+  align-content: center; */ 
   background-color: #b2bec3;
-  padding: 150px;
+ /*  padding: 150px; */
 }
+
+ /*.plocha {
+    display: inline-block;
+  vertical-align: middle; */
+/*   background-color: #b2bec3;
+  padding: 150px; 
+}*/
+
+
+/* --//// magin lepsi dat na dalsi DIV primo na obdelnik a dat 150px nahoru a jinak auto */
 .obdelnik {
+  margin:150px auto;
   width: 550px;
   justify-content: center;
   background-color: #ffffff;
